@@ -1,0 +1,50 @@
+.containerInfo__title {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    text-shadow: 4px 4px 1px rgb(121, 121, 121);
+    margin-bottom: 3rem;
+}
+
+
+.containerInfo__quote {
+    color: #727272;
+    padding: 20px;
+    text-align: center;
+    background-image: url("/public/images/paperQuote.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.containerInfo__quote p {
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.containerInfo__author {
+    background-color: rgba(255, 255, 255, 0.618);
+    color: #727272;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: max-content;
+    margin: 15px auto 0;
+}
+
+@media (min-width: 758px) {
+    .containerInfo__quote {
+        max-width: 600px;
+    }
+
+    .containerInfo__title {
+        font-size: 70px;
+        margin-bottom: 2rem;
+    }
+}

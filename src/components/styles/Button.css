@@ -1,0 +1,20 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.618);
+    color: #727272;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: background 200ms ease;
+
+}
+
+.button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.618);
+    background: #FFFFFF;
+}

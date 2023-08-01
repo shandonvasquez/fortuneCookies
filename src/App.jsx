@@ -30,7 +30,7 @@ function App() {
 const foo = () => {
   return (
     <footer>
-      <p>Web developer Shandon Vasquez</p>
+      <p>Web developer Shandon Vasquez.</p>
     </footer>
   );
 };
